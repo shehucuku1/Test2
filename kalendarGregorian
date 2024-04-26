@@ -21,3 +21,6 @@ dite=gregorianCalendar.get(GregorianCalendar.DAY_OF_MONTH);
 System.out.println("Viti: "+ vit + ",Muaji:" + muaj +",Dite e muajit:" +Dite);
 }
 }
+
+
+//Shkruar ne gjuhen e Java-s
