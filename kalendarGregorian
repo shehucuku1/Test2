@@ -1,0 +1,23 @@
+import java.util.GregorianCalendar;
+
+public class UshtrimPraktik{
+ public static void main (String[]args{
+  GregorianCalendar gregoriancalendar= new GregorianCalendar();
+  
+int vit=gregorianCalendar.get(GregorianCalendar.YEAR);
+int muaj= gregorianCalendar.get(GregorianCalendar.MONTH);
+int dite= gregorianCalendar.get(GregorianCalendar.DAY_OF_MONTH);
+
+System.out.println("Shfaq vitin,muajin dhe diten aktuale:");
+System.out.println("Viti:"+ vit +",Muaji: "+ muaj + ",Dite e muajit:" +dite);
+
+System.out.println("\nVendos GregorianCalendar.setTimeInMillis(long) ne 1234567898765L");
+
+gregorianCalendar.setTimeInMillis(1234567898765L);
+vit= gregorianCalendar.get(GregorianCalendar.YEAR);
+muaj=gregorianCalendar.get(GregorianCalendar.MONTH);
+dite=gregorianCalendar.get(GregorianCalendar.DAY_OF_MONTH);
+
+System.out.println("Viti: "+ vit + ",Muaji:" + muaj +",Dite e muajit:" +Dite);
+}
+}
